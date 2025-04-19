@@ -23,17 +23,48 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
-        background: "#18182a",
-        card: "#232336",
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
         accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+          "gradient-from": "#9b87f5",
+          "gradient-via": "#7E69AB",
+          "gradient-to": "#0EA5E9",
           purple: "#9b87f5",
           blue: "#0EA5E9",
-          'gradient-from': "#9b87f5",
-          'gradient-via': "#7E69AB",
-          'gradient-to': "#0EA5E9",
         },
-        glass: "rgba(30,34,51,0.67)",
-        white: "#fff"
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+        glass: "rgba(30,34,51,0.67)", // still used for custom glass utility
+        white: "#fff",
+        "accent-purple": "#9b87f5",
+        "accent-blue": "#0EA5E9",
       },
       boxShadow: {
         'soft-glow': "0 4px 32px 0 rgba(115,103,240,0.12)",
@@ -61,3 +92,4 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
