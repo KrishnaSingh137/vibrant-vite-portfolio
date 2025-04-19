@@ -17,7 +17,7 @@ const FeaturedProject = () => (
     <p className="text-white/80 font-medium tracking-tight mt-2 mb-5">Resputing industries, improvises dangers of scikit-learn</p>
     <div className="flex gap-3">
       <a
-        href="https://github.com/"
+        href="https://github.com/KrishnaSingh137"
         target="_blank"
         rel="noopener"
         className="px-3 py-2 rounded-lg bg-gradient-to-r from-gray-700/70 to-accent-purple/90 text-white text-xs flex items-center gap-1 hover:scale-105 transition-all"

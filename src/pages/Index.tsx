@@ -34,8 +34,8 @@ const Index = () => {
         <div className="flex flex-col items-center fade-in-up" data-aos="fade-up" data-aos-delay="120">
           <ProfileBlob src="/lovable-uploads/8d390e13-a3c3-4861-b87f-fbf70c7bfef8.png" alt="Profile" />
           <div className="mt-5 text-center">
-            <span className="text-2xl font-bold gradient-text block">Alex Carter</span>
-            <span className="block text-sm text-accent-purple/90 mt-1">Full Stack Engineer</span>
+            <span className="text-2xl font-bold gradient-text block">Krishna Singh</span>
+            <span className="block text-sm text-accent-purple/90 mt-1">Engineer</span>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ const Index = () => {
       {/* Projects & Blog */}
       <div className="flex flex-col md:flex-row gap-10 md:gap-20 px-3 sm:px-8 xl:px-24 mt-16 fade-in-up" data-aos="fade-up" data-aos-delay="80">
         <div className="flex-1 min-w-[210px]">
-          <div className="uppercase text-sm tracking-widest text-accent-purple mb-3">Projects</div>
+          <div className="uppercase text-sm tracking-widest text-accent-purple mb-3">Tech Stack</div>
           <ProjectGrid />
         </div>
         <div className="flex-1 min-w-[240px] max-w-[420px]">

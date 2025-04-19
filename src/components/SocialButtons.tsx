@@ -6,19 +6,19 @@ const socials = [
   {
     label: "LinkedIn",
     icon: <Linkedin size={18} />,
-    href: "#",
+    href: "https://www.linkedin.com/in/krishna-singh-617211322/",
     color: "from-purple-500 to-blue-500",
   },
   {
     label: "GitHub",
     icon: <Github size={18} />,
-    href: "#",
+    href: "https://github.com/KrishnaSingh137",
     color: "from-gray-900 to-purple-700",
   },
   {
     label: "Email",
     icon: <Mail size={18} />,
-    href: "mailto:someone@mail.com",
+    href: "mailto:jarvis7378@gmail.com",
     color: "from-blue-500 to-purple-500",
   },
 ];
