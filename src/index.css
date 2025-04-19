@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .glass {
+    @apply bg-glass backdrop-blur-xl shadow-soft-glow rounded-xl border border-white/10;
+  }
+  .card-gradient {
+    @apply bg-card bg-card-gradient;
+  }
+  .fade-in-up {
+    @apply animate-fade-in-up;
+  }
+}
+
+/* Gradient text for headings */
+.gradient-text {
+  background: linear-gradient(90deg, #9b87f5 60%, #0EA5E9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Small icon badge hover effect */
+.icon-badge {
+  @apply flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-br from-accent-gradient-from to-accent-gradient-to text-white shadow-inner transition-transform hover:scale-110;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
