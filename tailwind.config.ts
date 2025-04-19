@@ -93,8 +93,8 @@ export default {
         }
       },
       animation: {
-        "fade-in-up": "fade-in-up 0.7s ease",
-        "fade-in": "fade-in 0.4s ease",
+        "fade-in-up": "fade-in-up 0.7s cubic-bezier(0.33,1,0.68,1)",
+        "fade-in": "fade-in 0.4s cubic-bezier(0.33,1,0.68,1)",
       },
       backgroundImage: {
         "profile-blob":
