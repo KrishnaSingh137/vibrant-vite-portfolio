@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Github, Linkedin, Email } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const socials = [
   {
@@ -17,7 +17,7 @@ const socials = [
   },
   {
     label: "Email",
-    icon: <Email size={18} />,
+    icon: <Mail size={18} />,
     href: "mailto:someone@mail.com",
     color: "from-blue-500 to-purple-500",
   },
@@ -43,3 +43,4 @@ const SocialButtons = () => (
 );
 
 export default SocialButtons;
+
